@@ -1,0 +1,443 @@
+
+
+
+@font-face {
+    font-family: 'DSfont';
+    src: url('bloodcrowc.ttf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('bloodcrowc.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  } 
+  
+  
+  @font-face {
+    font-family: 'DSfonthollow';
+    src: url('bloodcrowsc.ttf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('bloodcrowsc.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+
+
+  body {
+    font-family: 'Dsfont', Fallback, sans-serif;
+    overflow-x: hidden;
+    background: #d78f13;
+  
+   
+ 
+  }
+
+  .updates {
+     font-size: 40px;
+    position: absolute;
+   top: -90px;
+    right: 0;
+    color: #0085b0;
+   
+  }
+
+  
+
+
+  h3 {
+    color: #c4044f;
+  }
+  h3:nth-child(2){
+     
+    position: absolute;
+    left: 0;
+    right: 60%;
+    
+   
+
+  }
+
+.grid {
+    
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+   background-color: black;
+width: 735px;
+height:665px;
+  
+
+}
+  
+.grid div {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.smallDot {
+    background-color: rgb(255, 255, 255);  
+    border-radius: 100px; 
+    border: 11px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.Tanjiro,.Nezuko,.Zenitsu,.Inosuke {
+   
+    box-sizing: border-box;
+    background-size: 31px 35px;
+    background-repeat: no-repeat;
+    border:none;
+    background-color: rgb(0, 0, 0);  
+    border-radius: 0px;
+}
+
+
+
+.Tanjiro {
+    background-image:  url('tenor.gif');
+}
+.Nezuko {
+    background-image:  url('nezz.gif');
+}
+.Zenitsu {
+    background-image:  url('zen.gif');
+}
+.Inosuke  {
+    background-image:  url('boar.gif');
+}
+
+.wall {
+    background-color: #c4044f;
+}
+
+
+
+
+.eyes {
+    background-image:  url('eyes.gif');
+    background-size: 30px 29px;
+}
+
+.deadend {
+    background-color: rgb(0, 0, 0);
+  
+}
+.empty {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.ghost {
+  
+    background-image:  url('ghost2.gif');
+    background-size: 35px 35px;
+    
+   
+}
+
+#container {
+   
+   display: flex;
+ 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   min-height: 100%;
+   width: 100%;
+   position: absolute;
+   
+
+}
+
+
+#Title, #launch, #startLabel {
+    font-family: 'Dsfonthollow', Fallback, sans-serif;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    font-size: 50px;
+    color: #c4044f;
+}
+
+
+
+
+
+
+button {
+  
+   
+    outline:none;
+    top: 95%;
+    padding: 0;
+    right: 57%;
+    background-color: none;
+    background: none;
+    border: none;
+
+
+}
+
+
+
+
+.redGhost {
+    background-image:  url('redGhost.gif');
+    background-size: 35px 35px;
+}
+
+
+@media screen and  (max-width: 945px){
+    body {
+        background-image: none;
+    }
+
+}
+
+#slayerSelect, #lost, #won {
+    visibility: hidden;
+    border-radius: 40px;
+     position: absolute;
+     background: #000000;
+     z-index: 10;
+     min-width: 800px;
+     width: 800px;
+     height: 400px;
+     text-align: center;
+     border: 10px solid #488673;
+    
+    
+ }
+
+
+
+ #slayerSelect {
+
+     top: 20%;
+     left: -6%;
+     right: 5%;
+
+ }
+ 
+
+ #lost, #won {
+    left: 21.5%;
+    top: 35%;
+    min-width:400px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    
+     border: 10px solid #d78f13;
+ }
+
+ #lostLabel, #wonLabel {
+     font-size: 35px;
+ }
+ 
+img {
+ 
+    width: 150px;
+}
+
+#launchButton {
+    position: absolute;
+}
+
+
+
+#selectChar, #characterSelected, #startLabel {
+    font-size: 35px;
+    
+}
+
+#start, #characterSelected {
+    position: absolute;
+}
+#characterSelected {
+    left: 0;
+    right: 0;
+}
+
+
+#start{
+ visibility: hidden;
+top: 69%;
+  left: 75%;
+  right: 0;
+}
+
+
+#liveCont {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 400px;
+    background: none;
+   top: 101%;
+   left: 60%;
+}
+
+.lives  {
+    background-image:  url('ghost2.gif');
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    margin-top: 6px;
+    
+}
+
+#startLabel {
+    color: #d78f13;
+}
+
+#livesLabel {
+    margin-top: -10px;
+    font-size: 50px;
+    color: #488673;
+}
+
+
+#launchButton {
+    top: 94%;
+   left: 40%;
+    right: 60%;
+  
+}
+ .levels {
+
+    left: 0%;
+    margin-left: 70px;
+    text-align: left;
+}
+.scores {
+    
+    left: 65%;
+}
+
+.finalscore {
+    font-size: 40px;
+}
+
+.finalUpdate {
+    position: absolute;
+    top: 30%;
+    margin-right: -240px;
+    font-size: 40px;
+}
+
+
+@media screen and  (max-width: 745px){
+    body {
+        background-image: none;
+    }
+
+    #slayerSelect {
+       min-width: 400px;
+        width: 700px;
+        height: 400px;
+        left: 1%;
+        right: 5%;
+        top: 20%;
+    }
+
+    .grid div {
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .grid {
+        height: 380px;
+        width: 420px;
+    }
+
+    .ghost, .eyes, .redGhost {
+        background-size:20px 20px;
+        
+
+    }
+
+    #Title, #launch, #startLabel {
+        font-size: 40px;
+       
+    }
+
+    .updates {
+        font-size: 30px;
+        top: -65px;
+    }
+
+    .levels {
+
+        left: 0%;
+        margin-left: 30px;
+        text-align: left;
+    }
+
+    #launchButton {
+       
+        left: 36%;
+        
+       
+    }
+
+    .smallDot {
+        border-radius: 100px;
+        border: 5px solid black;
+        background-size: 10px 10px;
+    }
+    
+
+    .Tanjiro,.Nezuko,.Zenitsu,.Inosuke {
+   
+        background-size: 20px 20px;
+        border: 0px solid black;
+
+    }
+
+
+#slayerSelect {
+     min-width: 356px;
+     width: 356px;
+     height: 300px;
+     top: 8%;
+     left: 5.2%;
+ }
+ img {
+    width: 80px;
+ }
+
+ #startLabel {
+    top: 8px;
+     font-size: 30px;
+ }
+ #lost, #won {
+    top: 20%;
+     left: 7%;
+     min-width: 340px;
+     width: 340px;
+     height: 180px;
+ }
+
+ .finalUpdate {
+
+    margin-right: -200px;
+
+ }
+
+ #livesLabel {
+     font-size: 30px;
+ }
+
+ .lives {
+    background-size:20px 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+ }
+ #liveCont {
+   left: 55%;
+}
+
+
+
+
+
+}
