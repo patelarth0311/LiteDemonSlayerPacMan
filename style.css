@@ -89,16 +89,16 @@ height:665px;
 
 
 .Tanjiro {
-    background-image:  url('tenor.gif');
+    background-image:  url('gifs/tenor.gif');
 }
 .Nezuko {
-    background-image:  url('nezz.gif');
+    background-image:  url('gifs/nezz.gif');
 }
 .Zenitsu {
-    background-image:  url('zen.gif');
+    background-image:  url('gifs/zen.gif');
 }
 .Inosuke  {
-    background-image:  url('boar.gif');
+    background-image:  url('gifs/boar.gif');
 }
 
 .wall {
@@ -109,7 +109,7 @@ height:665px;
 
 
 .eyes {
-    background-image:  url('eyes.gif');
+    background-image:  url('gifs/eyes.gif');
     background-size: 30px 29px;
 }
 
@@ -124,7 +124,7 @@ height:665px;
 
 .ghost {
   
-    background-image:  url('ghost2.gif');
+    background-image:  url('gifs/ghost2.gif');
     background-size: 35px 35px;
     
    
@@ -178,7 +178,7 @@ button {
 
 
 .redGhost {
-    background-image:  url('redGhost.gif');
+    background-image:  url('gifs/redGhost.gif');
     background-size: 35px 35px;
 }
 
@@ -276,7 +276,7 @@ top: 69%;
 }
 
 .lives  {
-    background-image:  url('ghost2.gif');
+    background-image:  url('gifs/ghost2.gif');
     background-size: 35px 35px;
     background-repeat: no-repeat;
     margin-left: 25px;
