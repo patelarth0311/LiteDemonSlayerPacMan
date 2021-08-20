@@ -14,5 +14,4 @@ How To Play
 4) To win, collect all the dots
 5) To play again, refresh the page
 
-Note
-The gameplay isn't identical to the javafx implementation of this game.
+Note: The gameplay isn't identical to the javafx implementation of this game.
